@@ -1,0 +1,38 @@
+            -- Q1
+--  Select count(id) totalCount FROM products
+           -- Q2
+-- select count(products.id) totalCount, brands.name brandName from products INNER JOIN brands on products.brand_id = brands.id GROUP by brands.name
+          -- Q3
+ -- Select SUM(quantity) totalQuantity FROM products
+          -- Q4
+-- Select SUM(products.QUANTITY) totalCount, brands.name brandName from products INNER JOIN brands on products.brand_id = brands.id GROUP by brands.name
+          -- Q5
+-- SEECT UM(price) totalprice FROM products LIMIT 0, 30
+       -- Q6
+ -- Select SUM(products.price) *  (brands.quantity)  as totalprice,brands.name brandName from products INNER JOIN brands on products.brand_id = brands.quantity GROUP by brands.name 
+ 
+
+
+
+  -- Q7
+  
+-- Select SUM(products.price) totalprice,brands.name brandName from products INNER JOIN brands on products.brand_id = brands.id GROUP by brands.name
+  
+  -- Q8 
+
+   -- Q9
+   
+ --  Select MAX(id) totalCount FROM products
+ 
+--  select MAX(products.price) totalprice, brands.name brandName from products INNER JOIN brands on products.brand_id = brands.id GROUP by brands.name
+
+ 
+-- Q10
+
+-- select MIN(products.price) totalproducts , brands.name brandName from products INNER JOIN brands on products.brand_id = brands.id GROUP by brands.name
+
+
+
+
+ 
+   
